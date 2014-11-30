@@ -12,6 +12,7 @@
 		5B4693C11A2BDCC500AFB781 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4693C01A2BDCC500AFB781 /* Images.xcassets */; };
 		5B4693C41A2BDCC500AFB781 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B4693C21A2BDCC500AFB781 /* MainMenu.xib */; };
 		5B4693D01A2BDCC500AFB781 /* oimapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4693CF1A2BDCC500AFB781 /* oimapTests.m */; };
+		5B4693DA1A2BE06F00AFB781 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5B4693D91A2BE06F00AFB781 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		5B4693C91A2BDCC500AFB781 /* oimapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oimapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4693CE1A2BDCC500AFB781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B4693CF1A2BDCC500AFB781 /* oimapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oimapTests.m; sourceTree = "<group>"; };
+		5B4693D91A2BE06F00AFB781 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = oimap/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		5B4693AD1A2BDCC500AFB781 = {
 			isa = PBXGroup;
 			children = (
+				5B4693D91A2BE06F00AFB781 /* README.md */,
 				5B4693B81A2BDCC500AFB781 /* oimap */,
 				5B4693CC1A2BDCC500AFB781 /* oimapTests */,
 				5B4693B71A2BDCC500AFB781 /* Products */,
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B4693DA1A2BE06F00AFB781 /* README.md in Sources */,
 				5B4693BF1A2BDCC500AFB781 /* main.m in Sources */,
 				5B4693BD1A2BDCC500AFB781 /* AppDelegate.m in Sources */,
 			);
