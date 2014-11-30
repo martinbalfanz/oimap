@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B4693BD1A2BDCC500AFB781 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4693BC1A2BDCC500AFB781 /* AppDelegate.m */; };
+		5B4693BF1A2BDCC500AFB781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4693BE1A2BDCC500AFB781 /* main.m */; };
+		5B4693C11A2BDCC500AFB781 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4693C01A2BDCC500AFB781 /* Images.xcassets */; };
+		5B4693C41A2BDCC500AFB781 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B4693C21A2BDCC500AFB781 /* MainMenu.xib */; };
+		5B4693D01A2BDCC500AFB781 /* oimapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4693CF1A2BDCC500AFB781 /* oimapTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B4693CA1A2BDCC500AFB781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B4693AE1A2BDCC500AFB781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B4693B51A2BDCC500AFB781;
+			remoteInfo = oimap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B4693B61A2BDCC500AFB781 /* oimap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oimap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4693BA1A2BDCC500AFB781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4693BB1A2BDCC500AFB781 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B4693BC1A2BDCC500AFB781 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B4693BE1A2BDCC500AFB781 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B4693C01A2BDCC500AFB781 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B4693C31A2BDCC500AFB781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5B4693C91A2BDCC500AFB781 /* oimapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oimapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4693CE1A2BDCC500AFB781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4693CF1A2BDCC500AFB781 /* oimapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oimapTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B4693B31A2BDCC500AFB781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4693C61A2BDCC500AFB781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B4693AD1A2BDCC500AFB781 = {
+			isa = PBXGroup;
+			children = (
+				5B4693B81A2BDCC500AFB781 /* oimap */,
+				5B4693CC1A2BDCC500AFB781 /* oimapTests */,
+				5B4693B71A2BDCC500AFB781 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B4693B71A2BDCC500AFB781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B4693B61A2BDCC500AFB781 /* oimap.app */,
+				5B4693C91A2BDCC500AFB781 /* oimapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B4693B81A2BDCC500AFB781 /* oimap */ = {
+			isa = PBXGroup;
+			children = (
+				5B4693BB1A2BDCC500AFB781 /* AppDelegate.h */,
+				5B4693BC1A2BDCC500AFB781 /* AppDelegate.m */,
+				5B4693C01A2BDCC500AFB781 /* Images.xcassets */,
+				5B4693C21A2BDCC500AFB781 /* MainMenu.xib */,
+				5B4693B91A2BDCC500AFB781 /* Supporting Files */,
+			);
+			path = oimap;
+			sourceTree = "<group>";
+		};
+		5B4693B91A2BDCC500AFB781 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B4693BA1A2BDCC500AFB781 /* Info.plist */,
+				5B4693BE1A2BDCC500AFB781 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B4693CC1A2BDCC500AFB781 /* oimapTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B4693CF1A2BDCC500AFB781 /* oimapTests.m */,
+				5B4693CD1A2BDCC500AFB781 /* Supporting Files */,
+			);
+			path = oimapTests;
+			sourceTree = "<group>";
+		};
+		5B4693CD1A2BDCC500AFB781 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B4693CE1A2BDCC500AFB781 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B4693B51A2BDCC500AFB781 /* oimap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4693D31A2BDCC500AFB781 /* Build configuration list for PBXNativeTarget "oimap" */;
+			buildPhases = (
+				5B4693B21A2BDCC500AFB781 /* Sources */,
+				5B4693B31A2BDCC500AFB781 /* Frameworks */,
+				5B4693B41A2BDCC500AFB781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oimap;
+			productName = oimap;
+			productReference = 5B4693B61A2BDCC500AFB781 /* oimap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B4693C81A2BDCC500AFB781 /* oimapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4693D61A2BDCC500AFB781 /* Build configuration list for PBXNativeTarget "oimapTests" */;
+			buildPhases = (
+				5B4693C51A2BDCC500AFB781 /* Sources */,
+				5B4693C61A2BDCC500AFB781 /* Frameworks */,
+				5B4693C71A2BDCC500AFB781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B4693CB1A2BDCC500AFB781 /* PBXTargetDependency */,
+			);
+			name = oimapTests;
+			productName = oimapTests;
+			productReference = 5B4693C91A2BDCC500AFB781 /* oimapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B4693AE1A2BDCC500AFB781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Martin Balfanz";
+				TargetAttributes = {
+					5B4693B51A2BDCC500AFB781 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					5B4693C81A2BDCC500AFB781 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 5B4693B51A2BDCC500AFB781;
+					};
+				};
+			};
+			buildConfigurationList = 5B4693B11A2BDCC500AFB781 /* Build configuration list for PBXProject "oimap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B4693AD1A2BDCC500AFB781;
+			productRefGroup = 5B4693B71A2BDCC500AFB781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B4693B51A2BDCC500AFB781 /* oimap */,
+				5B4693C81A2BDCC500AFB781 /* oimapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B4693B41A2BDCC500AFB781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4693C11A2BDCC500AFB781 /* Images.xcassets in Resources */,
+				5B4693C41A2BDCC500AFB781 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4693C71A2BDCC500AFB781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B4693B21A2BDCC500AFB781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4693BF1A2BDCC500AFB781 /* main.m in Sources */,
+				5B4693BD1A2BDCC500AFB781 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4693C51A2BDCC500AFB781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4693D01A2BDCC500AFB781 /* oimapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B4693CB1A2BDCC500AFB781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B4693B51A2BDCC500AFB781 /* oimap */;
+			targetProxy = 5B4693CA1A2BDCC500AFB781 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B4693C21A2BDCC500AFB781 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B4693C31A2BDCC500AFB781 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B4693D11A2BDCC500AFB781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5B4693D21A2BDCC500AFB781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5B4693D41A2BDCC500AFB781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = oimap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B4693D51A2BDCC500AFB781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = oimap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B4693D71A2BDCC500AFB781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = oimapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oimap.app/Contents/MacOS/oimap";
+			};
+			name = Debug;
+		};
+		5B4693D81A2BDCC500AFB781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = oimapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oimap.app/Contents/MacOS/oimap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B4693B11A2BDCC500AFB781 /* Build configuration list for PBXProject "oimap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4693D11A2BDCC500AFB781 /* Debug */,
+				5B4693D21A2BDCC500AFB781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4693D31A2BDCC500AFB781 /* Build configuration list for PBXNativeTarget "oimap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4693D41A2BDCC500AFB781 /* Debug */,
+				5B4693D51A2BDCC500AFB781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B4693D61A2BDCC500AFB781 /* Build configuration list for PBXNativeTarget "oimapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4693D71A2BDCC500AFB781 /* Debug */,
+				5B4693D81A2BDCC500AFB781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B4693AE1A2BDCC500AFB781 /* Project object */;
+}
