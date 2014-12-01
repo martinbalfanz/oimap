@@ -17,7 +17,6 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
     [self setupStatusItem];
 }
 
@@ -25,18 +24,19 @@
     // Insert code here to tear down your application
 }
 
-- (void)setupStatusItem
-{
+#pragma mark - MenuItem Setup
+
+- (void)setupStatusItem {
     self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
 
-    [self.statusItem setTitle:@"oimap"];
-//    [self.statusItem setAlternateImage:[NSImage imageNamed:@"name"]];
+    [self.statusItem setTitle:@""];
+    [self.statusItem setImage:[NSImage imageNamed:@"mail"]];
+    [self.statusItem setAlternateImage:[NSImage imageNamed:@"alternative"]];
     [self.statusItem setHighlightMode:YES];
     [self.statusItem setMenu:[self setupMenu]];
 }
 
-- (NSMenu *)setupMenu
-{
+- (NSMenu *)setupMenu {
     NSMenu *menu = [[NSMenu alloc] init];
     [menu addItem:[NSMenuItem separatorItem]];
     [menu addItemWithTitle:@"Quit" action:@selector(terminate:) keyEquivalent:@"q"];
