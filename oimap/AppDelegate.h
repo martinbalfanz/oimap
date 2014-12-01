@@ -7,10 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "ConfigWindowController.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
-
-@property (strong, nonatomic) NSStatusItem *statusItem;
 
 @end
 

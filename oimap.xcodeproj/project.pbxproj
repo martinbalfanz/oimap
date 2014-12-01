@@ -13,6 +13,8 @@
 		5B4693C41A2BDCC500AFB781 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B4693C21A2BDCC500AFB781 /* MainMenu.xib */; };
 		5B4693D01A2BDCC500AFB781 /* oimapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4693CF1A2BDCC500AFB781 /* oimapTests.m */; };
 		5B4693DA1A2BE06F00AFB781 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5B4693D91A2BE06F00AFB781 /* README.md */; };
+		5BAB85FD1A2C902C0048B123 /* ConfigWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB85FB1A2C902C0048B123 /* ConfigWindowController.m */; };
+		5BAB85FE1A2C902C0048B123 /* ConfigWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BAB85FC1A2C902C0048B123 /* ConfigWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,9 @@
 		5B4693CE1A2BDCC500AFB781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B4693CF1A2BDCC500AFB781 /* oimapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oimapTests.m; sourceTree = "<group>"; };
 		5B4693D91A2BE06F00AFB781 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = oimap/README.md; sourceTree = "<group>"; };
+		5BAB85FA1A2C902C0048B123 /* ConfigWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigWindowController.h; sourceTree = "<group>"; };
+		5BAB85FB1A2C902C0048B123 /* ConfigWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigWindowController.m; sourceTree = "<group>"; };
+		5BAB85FC1A2C902C0048B123 /* ConfigWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,9 @@
 				5B4693BC1A2BDCC500AFB781 /* AppDelegate.m */,
 				5B4693C01A2BDCC500AFB781 /* Images.xcassets */,
 				5B4693C21A2BDCC500AFB781 /* MainMenu.xib */,
+				5BAB85FA1A2C902C0048B123 /* ConfigWindowController.h */,
+				5BAB85FB1A2C902C0048B123 /* ConfigWindowController.m */,
+				5BAB85FC1A2C902C0048B123 /* ConfigWindowController.xib */,
 				5B4693B91A2BDCC500AFB781 /* Supporting Files */,
 			);
 			path = oimap;
@@ -194,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BAB85FE1A2C902C0048B123 /* ConfigWindowController.xib in Resources */,
 				5B4693C11A2BDCC500AFB781 /* Images.xcassets in Resources */,
 				5B4693C41A2BDCC500AFB781 /* MainMenu.xib in Resources */,
 			);
@@ -214,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B4693DA1A2BE06F00AFB781 /* README.md in Sources */,
+				5BAB85FD1A2C902C0048B123 /* ConfigWindowController.m in Sources */,
 				5B4693BF1A2BDCC500AFB781 /* main.m in Sources */,
 				5B4693BD1A2BDCC500AFB781 /* AppDelegate.m in Sources */,
 			);

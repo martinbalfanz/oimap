@@ -10,7 +10,9 @@
 
 @interface AppDelegate ()
 
+@property (strong, nonatomic) ConfigWindowController *configWindowController;
 @property (weak) IBOutlet NSMenu *mainMenu;
+@property (strong, nonatomic) NSStatusItem *statusItem;
 
 @end
 
@@ -38,10 +40,21 @@
 
 - (NSMenu *)setupMenu {
     NSMenu *menu = [[NSMenu alloc] init];
+    [menu addItemWithTitle:@"Configure" action:@selector(openConfig:) keyEquivalent:@","];
     [menu addItem:[NSMenuItem separatorItem]];
     [menu addItemWithTitle:@"Quit" action:@selector(terminate:) keyEquivalent:@"q"];
     
     return menu;
+}
+
+#pragma mark - Config menu
+
+- (void)openConfig:(id)sender {
+    if (!self.configWindowController) {
+        self.configWindowController = [[ConfigWindowController alloc] init];
+    }
+    
+    [self.configWindowController showWindow:self];
 }
 
 @end
