@@ -402,6 +402,7 @@
 				5B4693D51A2BDCC500AFB781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B4693D61A2BDCC500AFB781 /* Build configuration list for PBXNativeTarget "oimapTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +411,7 @@
 				5B4693D81A2BDCC500AFB781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
