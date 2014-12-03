@@ -6,6 +6,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="ConfigWindowController">
             <connections>
+                <outlet property="canelButton" destination="aQJ-BV-onK" id="Mu7-V9-o5x"/>
                 <outlet property="intervalTextField" destination="FrB-on-YQ2" id="WSG-49-81n"/>
                 <outlet property="muCheckbox" destination="hWw-8G-zra" id="auc-tG-JCz"/>
                 <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
@@ -67,6 +68,9 @@
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
+                        <connections>
+                            <action selector="saveButtonAction:" target="-2" id="2Ir-SQ-x0k"/>
+                        </connections>
                     </button>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aQJ-BV-onK">
                         <rect key="frame" x="206" y="13" width="82" height="32"/>

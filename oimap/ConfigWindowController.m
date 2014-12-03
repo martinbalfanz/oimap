@@ -7,6 +7,7 @@
 //
 
 #import "ConfigWindowController.h"
+#import "ConfigHelper.h"
 
 @interface ConfigWindowController ()
 
@@ -26,6 +27,12 @@
 
 - (void)showWindow:(id)sender {
     [super showWindow:sender];
+}
+
+- (IBAction)saveButtonAction:(id)sender {
+    NSDictionary *data = @{@"mu": @([self.muCheckbox state] == NSOnState), @"interval": [self.intervalTextField stringValue]};
+    
+    [ConfigHelper updateConfig:data];
 }
 
 @end

@@ -12,7 +12,10 @@
 
 @property (weak) IBOutlet NSTextField *intervalTextField;
 @property (weak) IBOutlet NSButton *muCheckbox;
+@property (weak) IBOutlet NSButton *saveButton;
+@property (weak) IBOutlet NSButton *canelButton;
 
 - (void)showWindow:(id)sender;
+- (IBAction)saveButtonAction:(id)sender;
 
 @end
