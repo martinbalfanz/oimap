@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6250"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="ConfigWindowController">
             <connections>
-                <outlet property="canelButton" destination="aQJ-BV-onK" id="Mu7-V9-o5x"/>
+                <outlet property="cancelButton" destination="aQJ-BV-onK" id="uw2-9c-vZH"/>
+                <outlet property="configWindow" destination="F0z-JX-Cv5" id="SbU-VR-Nqj"/>
                 <outlet property="intervalTextField" destination="FrB-on-YQ2" id="WSG-49-81n"/>
                 <outlet property="muCheckbox" destination="hWw-8G-zra" id="auc-tG-JCz"/>
                 <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
@@ -81,6 +82,9 @@
 Gw
 </string>
                         </buttonCell>
+                        <connections>
+                            <action selector="cancelButtonAction:" target="-2" id="hp5-6k-Zfl"/>
+                        </connections>
                     </button>
                 </subviews>
             </view>

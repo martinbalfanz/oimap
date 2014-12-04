@@ -10,12 +10,14 @@
 
 @interface ConfigWindowController : NSWindowController
 
+@property(strong) IBOutlet NSWindow *configWindow;
 @property(weak) IBOutlet NSTextField *intervalTextField;
 @property(weak) IBOutlet NSButton *muCheckbox;
 @property(weak) IBOutlet NSButton *saveButton;
-@property(weak) IBOutlet NSButton *canelButton;
+@property(weak) IBOutlet NSButton *cancelButton;
 
 - (void)showWindow:(id)sender;
 - (IBAction)saveButtonAction:(id)sender;
+- (IBAction)cancelButtonAction:(id)sender;
 
 @end
