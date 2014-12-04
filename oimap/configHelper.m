@@ -47,6 +47,7 @@ NSDictionary *config;
 
 + (void)updateConfig:(NSDictionary *)configuration {
   config = configuration;
+  [self saveConfigFile:configuration];
 }
 
 #pragma mark - read & write to config file
@@ -91,6 +92,7 @@ NSDictionary *config;
     NSLog(@"saveConfigFile error: %@", error);
     return false;
   } else {
+    [jsonData writeToFile:[self getConfigPath] atomically:NO];
     return true;
   }
 }
