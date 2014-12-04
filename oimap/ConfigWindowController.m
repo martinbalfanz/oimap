@@ -37,6 +37,7 @@
   };
 
   [ConfigHelper updateConfig:data];
+  [[self configWindow] close];
 }
 
 - (IBAction)cancelButtonAction:(id)sender {
